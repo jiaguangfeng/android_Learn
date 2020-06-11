@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".TextView.TextViewActivity" />
         <activity android:name=".Button.ButtonActivity" />
+        <activity android:name=".ScrollView.ScrollViewActivity" />
     </application>
 
 </manifest>

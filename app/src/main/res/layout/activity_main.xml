@@ -23,5 +23,13 @@
         android:background="@color/colorAccent"
         android:text="BUTTON使用"
         android:textColor="#FF0000" />
+    <Button
+        android:id="@+id/btn_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:text="SCROLLVIEW使用"
+        android:textColor="#010000" />
 
 </LinearLayout>
