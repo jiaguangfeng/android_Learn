@@ -4,34 +4,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-    <Button
-        android:id="@+id/btn_button01"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="这是一个按钮"></Button>
-    <!--一个普通的按钮-->
+        android:hint="这是一个普通的输入框"></EditText>
 
-    <Button
-        android:id="@+id/btn_button02"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="这是二个按钮"
-        android:textColor="#ffffff"
-        android:background="#000000"></Button>
+        android:hint="请输入密码"
+        android:inputType="textPassword"></EditText>
 
-
-    <!-- 白色字体 黑色背景-->
-
-    <Button
-        android:id="@+id/btn_button03"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="这是三个按钮"
-        android:background="@drawable/ripple_bg"></Button>
+        android:hint="请输入手机号"
+        android:inputType="number"></EditText>
 
-    <!-- 点击效果的变化-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入邮箱账号"
+        android:inputType="textEmailAddress"></EditText>
+
+
 </LinearLayout>

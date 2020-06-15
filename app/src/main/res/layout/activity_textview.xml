@@ -11,5 +11,30 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:text="这是一个TEXTVIEW"></TextView>
+        <!-- 一个普通的textview-->
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:autoLink="email|phone"
+        android:singleLine="true"
+        android:text="邮箱是 814484626@qq.com, 电话是13100000000" />
+        <!-- 电话和邮件标注-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="左边图片"
+        android:gravity="center_vertical"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="10dp"/>
+        <!--左边加 图片 -->
+
+
+    <!-- 常用的属性 大概都差不多  真正想要的效果使用的时候 去找找就可以
+    比如跑马灯效果  下划线  等等    -->
 </LinearLayout>

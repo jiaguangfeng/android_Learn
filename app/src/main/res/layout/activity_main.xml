@@ -32,4 +32,13 @@
         android:text="SCROLLVIEW使用"
         android:textColor="#010000" />
 
+    <Button
+        android:id="@+id/btn_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:text="EDITTEXT使用"
+        android:textColor="#aaaaaa" />
+
 </LinearLayout>
