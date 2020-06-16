@@ -41,4 +41,13 @@
         android:text="EDITTEXT使用"
         android:textColor="#aaaaaa" />
 
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:text="登录功能"
+        android:textColor="#FFFF99" />
+
 </LinearLayout>
