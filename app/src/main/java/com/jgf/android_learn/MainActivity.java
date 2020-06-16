@@ -11,13 +11,15 @@ import com.jgf.android_learn.EditText.EditTextActivity;
 import com.jgf.android_learn.Login.LoginActivity;
 import com.jgf.android_learn.ScrollView.ScrollViewActivity;
 import com.jgf.android_learn.TextView.TextViewActivity;
+import com.jgf.android_learn.Viewpager.ViewPagerActivity;
 
 public class MainActivity extends Activity implements View.OnClickListener {
     Button mButton_textview;
     Button mButton_button;
     Button  mButton_scrollview;
     Button mButton_edittext;
-    Button mButton_login;
+    Button mButton_loginat;
+    Button mButton_viewpager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,13 +28,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mButton_button = (Button) findViewById(R.id.btn_button);
         mButton_scrollview = (Button) findViewById(R.id.btn_scrollview);
         mButton_edittext= (Button) findViewById(R.id.btn_edittext);
-        mButton_login= (Button) findViewById(R.id.btn_login);
+        mButton_loginat= (Button) findViewById(R.id.btn_loginat);
+        mButton_viewpager= (Button) findViewById(R.id.btn_viewpager);
         mButton_textview.setOnClickListener(this);
         mButton_button.setOnClickListener(this);
         mButton_scrollview.setOnClickListener(this);
         mButton_edittext.setOnClickListener(this);
-        mButton_login.setOnClickListener(this);
-
+        mButton_loginat.setOnClickListener(this);
+        mButton_viewpager.setOnClickListener(this);
     }
 
     @Override
@@ -53,7 +56,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.btn_login:
                 intentAction(LoginActivity.class);
                 break;
-
+            case R.id.btn_viewpager:
+                intentAction(ViewPagerActivity.class);
+                break;
         }
     }
 
