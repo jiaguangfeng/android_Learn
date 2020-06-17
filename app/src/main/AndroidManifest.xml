@@ -22,6 +22,7 @@
         <activity android:name=".EditText.EditTextActivity" />
         <activity android:name=".Login.LoginActivity" />
         <activity android:name=".Viewpager.ViewPagerActivity" />
+        <activity android:name=".Listview.ListviewActivity" />
     </application>
 
 </manifest>

@@ -59,4 +59,13 @@
         android:text="VIEWPAGER使用"
         android:textColor="#FFFF99" />
 
+    <Button
+        android:id="@+id/btn_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:text="LISTVIEW使用"
+        android:textColor="#FFEE33" />
+
 </LinearLayout>
