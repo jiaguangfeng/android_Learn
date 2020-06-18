@@ -23,6 +23,7 @@
         <activity android:name=".Login.LoginActivity" />
         <activity android:name=".Viewpager.ViewPagerActivity" />
         <activity android:name=".Listview.ListviewActivity" />
+        <activity android:name=".Gridview.GridviewActivity" />
     </application>
 
 </manifest>
