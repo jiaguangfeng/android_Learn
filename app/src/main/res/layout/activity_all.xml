@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这是一个文字控件, 一般用于显示内容也，也可以实现点击事件。"></TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="这是一个按钮，比如登录按钮 ，也有好多的点击是textview实现  button比起textview 多了一个背景的样式 在一些不要背景样式的地方可以选择textview 来完成点击事件" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:contentDescription="这个一个显示图片的控件，一般用来展示图片 显示的模式有多种，可以根据情况选择模式"
+                android:src="@mipmap/ic_launcher"></ImageView>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:contentDescription="这个也算是imageview 加了一层button的感觉 但是imageview 也是有点击事件的 这个了解下 "
+                android:src="@mipmap/ic_launcher" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="输入框，多种模式,密码模式 数字模式   " />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="这是勾选框" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="这是一个开关键  多数情况下要修改样式 来适配app" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:contentDescription="这个配合readioButton 做一个几选一的效果
+                 之前就是这个配合一个空的view 加载不同的fragment 来做首页的底部切换"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableTop="@mipmap/ic_launcher"
+                    android:gravity="center"
+                    android:text="1"></RadioButton>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableTop="@mipmap/ic_launcher"
+                    android:gravity="center"
+                    android:text="1"></RadioButton>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableTop="@mipmap/ic_launcher"
+                    android:gravity="center"
+                    android:text="1"></RadioButton>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableTop="@mipmap/ic_launcher"
+                    android:gravity="center"
+                    android:text="1"></RadioButton>
+
+
+            </RadioGroup>
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:contentDescription="这是一个列表 竖排列  使用列表和滑动的控件ScrollView  同时使用会有滑动冲突   需要处理" />
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:contentDescription="这是一个列表 表格排列"
+                android:numColumns="3" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="这是一个加强版的列表 能实现更能多的效果 建议使用这个代替其他的列表控件"></androidx.recyclerview.widget.RecyclerView>
+
+            <!-- 这是一个fragment   一般是放在一个视图中加载另外一个视图   多数使用情况就是在activity中加载fragment-->
+<!--            <fragment-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"></fragment>-->
+
+            <WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="webview 加载网页 html"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

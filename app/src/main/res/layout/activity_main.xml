@@ -6,75 +6,96 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn_textview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
-        android:text="TEXTVIEW使用"
-        android:textColor="#FFFFFF" />
 
-    <Button
-        android:id="@+id/btn_button"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
-        android:text="BUTTON使用"
-        android:textColor="#FF0000" />
-    <Button
-        android:id="@+id/btn_scrollview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
-        android:text="SCROLLVIEW使用"
-        android:textColor="#010000" />
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/btn_edittext"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
-        android:text="EDITTEXT使用"
-        android:textColor="#aaaaaa" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_loginat"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
-        android:text="登录功能"
-        android:textColor="#FFFF99" />
+            <Button
+                android:id="@+id/btn_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="TEXTVIEW使用"
+                android:textColor="#FFFFFF" />
 
-    <Button
-        android:id="@+id/btn_viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
-        android:text="VIEWPAGER使用"
-        android:textColor="#FFFF99" />
+            <Button
+                android:id="@+id/btn_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="BUTTON使用"
+                android:textColor="#FF0000" />
 
-    <Button
-        android:id="@+id/btn_listview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
-        android:text="LISTVIEW使用"
-        android:textColor="#FFEE33" />
+            <Button
+                android:id="@+id/btn_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="SCROLLVIEW使用"
+                android:textColor="#010000" />
 
-    <Button
-        android:id="@+id/btn_gridview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@color/colorAccent"
-        android:text="GRIDVIEW使用"
-        android:textColor="#FFEE33" />
+            <Button
+                android:id="@+id/btn_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="EDITTEXT使用"
+                android:textColor="#aaaaaa" />
 
+            <Button
+                android:id="@+id/btn_loginat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="登录功能"
+                android:textColor="#FFFF99" />
+
+            <Button
+                android:id="@+id/btn_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="VIEWPAGER使用"
+                android:textColor="#FFFF99" />
+
+            <Button
+                android:id="@+id/btn_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="LISTVIEW使用"
+                android:textColor="#FFEE33" />
+
+            <Button
+                android:id="@+id/btn_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="GRIDVIEW使用"
+                android:textColor="#FFEE33" />
+
+            <Button
+                android:id="@+id/btn_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="使用控件展示"
+                android:textColor="#FFEE33" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

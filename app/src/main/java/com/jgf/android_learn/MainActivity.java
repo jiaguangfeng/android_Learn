@@ -24,6 +24,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     Button mButton_viewpager;
     Button mButton_listview;
     Button mButton_gridview;
+    Button mButton_all;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mButton_viewpager = (Button) findViewById(R.id.btn_viewpager);
         mButton_listview = (Button) findViewById(R.id.btn_listview);
         mButton_gridview = (Button) findViewById(R.id.btn_gridview);
+        mButton_all = (Button) findViewById(R.id.btn_all);
 
         mButton_textview.setOnClickListener(this);
         mButton_button.setOnClickListener(this);
@@ -46,6 +48,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mButton_viewpager.setOnClickListener(this);
         mButton_listview.setOnClickListener(this);
         mButton_gridview.setOnClickListener(this);
+        mButton_all.setOnClickListener(this);
     }
 
     @Override
@@ -75,11 +78,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.btn_gridview:
                 intentAction(GridviewActivity.class);
                 break;
+            case R.id.btn_all:
+                intentAction(AllActivity.class);
+                break;
 
         }
     }
 
-    //
+
     private void intentAction(Class activity) {
         Intent intent = new Intent(MainActivity.this, activity);
         startActivity(intent);
